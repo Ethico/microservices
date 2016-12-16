@@ -1,4 +1,9 @@
+### Status
+[![Build Status](https://travis-ci.org/Ethico/microservices.png)](https://travis-ci.org/Ethico/microservices)
+
 # microservices
+
+
 
 Motivation is to build number of microservices and to explore spring boot cloud project and its features
 
