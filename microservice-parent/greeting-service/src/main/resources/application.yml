@@ -1,9 +1,22 @@
 spring:
   application:
-    name: greeting-service
+    name: greeting
     
+server:
+  port: 8091
+  ssl:
+    key-store: keystore.jks
+    key-store-password: changeit
+    keyStoreType: JKS
+    keyAlias: default
     
 eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    nonSecurePortEnabled: false
+    securePortEnabled: true
+    securePort: 8091 
+     
+  
